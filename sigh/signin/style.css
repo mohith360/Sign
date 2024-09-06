@@ -1,0 +1,111 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("aesthetic_black_aesthetic_pattern_circles_swirl_abstraction_hd_abstract-1920x1080.jpg");
+    display: flex;
+    background-size: auto;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rect{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    background-color: rgba(83, 82, 78, 0.147);
+    display: inline-block;
+    width: 50vh;
+    height:60vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 3vh;
+    font-size: 4vh;
+    margin-top: 17vh;
+    backdrop-filter: blur(0.5vh);
+    box-shadow: 0px 0px 40px 40px #000000;
+
+}
+.logintxt{
+    position: relative;
+    top:3vh;
+    font-weight: bold;
+    color: rgb(217, 255, 0);
+    letter-spacing: 0.1vh;
+}
+.up{
+    position: relative;
+    top:3vh;
+    width: 45vh;
+    height:6vh;
+    border-radius: 2vh;
+    font-size: large;
+    margin-top: 1vh;
+    padding: 2vh;
+    background-color: beige;
+}
+.upt{
+    position: relative;
+    top: 3vh;
+    left: -13vh;
+    font-size: 3.4vh;
+    padding-top: 5vh;
+    color: rgb(217, 255, 0);
+    
+}
+.signin{
+    position: relative;
+    top:2vh;
+    border-radius: 3vh;
+    padding: 0.8vh 1.5vh;
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: rgb(217, 255, 0);
+    cursor: pointer;
+}
+.signin:hover{
+    background-color:black ;
+    color:rgb(217, 255, 0);
+    box-shadow:rgb(217, 255, 0);
+    transition: all ease 0.5s;
+}
+.dha{
+    position: relative;
+    font-size: 3vh;
+    top:4vh;
+    color:beige
+}
+a{
+    text-decoration: none;
+    color:  rgb(217, 255, 0) ;
+}
+a:hover{
+    color: rgb(217, 255, 0);
+    background-color: black;
+    padding: 1vh;
+    border-radius: 2vh;
+    transition: all ease 0.5s;
+}
+#un{
+    position: relative;
+    background-image: url("user-solid-24.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x:40vh ;
+}
+#pw{
+    position: relative;
+    background-image: url("lock-alt-solid-24.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x:40vh ;
+}
+#spwd{
+    top:5vh;
+    left: -13vh;
+    position: relative;
+    font-size: 2.1vh;
+    color:rgb(217, 255, 0) ;
+}

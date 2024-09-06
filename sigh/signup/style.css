@@ -1,0 +1,118 @@
+:root{
+    --yellow:rgb(217, 255, 0);
+}
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@200&display=swap');
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("black_squares_geometric_boxes_art_shapes_hd_black-1920x1080.jpg");
+    display: flex;
+    background-size: auto;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.rect{
+    backdrop-filter: blur(0.5vh);
+    box-shadow: 0px 0px 40px 40px #000000;
+    background-color: rgba(83, 82, 78, 0.147);
+    display: inline-block;
+    border-radius: 3vh;
+    width: 170vh;
+    height:80vh;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 3vh;
+    margin-top: 10vh;
+    position: relative;
+}
+.formele {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns:30vh 50vh 30vh 50vh 25vh;
+    grid-template-rows: 65vh 65vh 65vh 65vh 65vh;
+    height: 56vh;
+}
+.perin{
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+.uin{
+    border:5vh;
+    grid-row-start: 1;
+    grid-column-start: 4;
+}
+.logintxt{
+    position: relative;
+    top:3vh;
+    left: 74vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 4vh;
+    font-family: url;
+    color: rgb(217, 255, 0);
+    letter-spacing: 0.1vh;
+}
+.upt{
+    position: relative;
+    font-size: 3vh;
+    padding-top: 3.5vh;
+    color: rgb(217, 255, 0);
+}
+.up{
+    position: relative;
+    width: 45vh;
+    height:6vh;
+    border-radius: 2vh;
+    font-size: large;
+    margin-top: 1vh;
+    padding: 2vh;
+    background-color: beige;
+}
+.gen{
+    color:beige;
+    margin-top: 3vh;
+}
+.signup{
+    border-radius: 3vh;
+    padding: 0.8vh 1.5vh;
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: rgb(217, 255, 0);
+    cursor: pointer;
+    height: 4.9vh;
+    position: relative;
+    align-items: center;
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+.signup:hover{
+    background-color:black ;
+    color:rgb(217, 255, 0);
+    box-shadow:rgb(217, 255, 0);
+    transition: all ease 0.5s;
+}
+.ord{
+    padding-top: 1.9vh;
+}
+#spwd{
+    color:beige;
+    margin-top: 1.2vh;
+    font-size: 2.1vh;
+}
+.jsk{
+        position: relative;
+        background-image: url("lock-alt-solid-24.png");
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x:40vh ;
+}
+.dob{
+    margin-top: -1.9vh;
+}

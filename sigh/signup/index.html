@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="try2.png" type="image/x-icon">
+    <script src="signu.js" defer></script>
+</head>
+<body>
+    <div class="rect ">
+        <div class="kal"><span class="logintxt">SIGN UP !</span></div>
+        <form class="formele" action="get">
+            <div class="perin">
+                <div class="upt fn">First Name:</div>
+                <input type="text" autofocus id="un1" required name="username1" class="up" placeholder="Enter First Name">
+                <div class="upt">Last Name:</div>
+                <input type="text" autofocus id="un2" required name="username2" class="up" placeholder="Enter Last Name"><br>
+                <div class="upt">Gender:</div>
+                    <input  type="radio" class="gen" id="gender1" name="gender" value="Male" />
+                    <label  for="gender1" class="gen">Male</label>
+                    <input  type="radio"  class="gen" id="gender2" name="gender" value="Female" />
+                    <label  for="gender2" class="gen">Female</label>
+                    <input  type="radio"  class="gen" id="gender3" name="gender" value="Others" />
+                    <label  for="gender3" class="gen">Others</label><br>
+                <div class="upt dob">Date of birth:</div>
+                <input class="up " type="date" name="date" id="date">
+            </div>
+            <div class="uin">
+                <div class="upt ">E-mail:</div>
+                <input type="email" name="email" id="email" placeholder="E-mail" class="up"><br>
+                <div class="upt ">Mobile No.:</div>
+                <input type="tel" class="up" placeholder="Enter Mobile no" name="phone" id="phone">
+                <div class="upt ord ">Password:</div>
+                <input type="password" id="pw" required  name="password"  class="up jsk" placeholder="Enter Password"><br>
+                <div class="upt ord">Confirm Password:</div>
+                <input type="password" id="pwc" required  name="password"  class="up jsk" placeholder="Confirm Password"><br>
+                <div id="spwd" ><input type="checkbox" onclick="myFunction()">Show Password</div> <br>
+            </div>
+            
+                <button type="submit" class="signup">SignUp</button>
+        </form>
+    </div>
+</body>
+</html>
